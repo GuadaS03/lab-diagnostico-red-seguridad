@@ -24,14 +24,14 @@ Se verificó la comunicación interna entre ambos sistemas ejecutando un test de
 
 ---
 
-## ⚔️ Fase 2: Reconocimiento Automatizado y Análisis de Superficie de Exposición
+## Fase 2: Reconocimiento Automatizado y Análisis de Superficie de Exposición
 
 Para identificar de manera eficiente los puntos de entrada potenciales en la máquina objetivo, se desarrolló un script de automatización en Bash (`escaneo.sh`) encargado de ejecutar análisis iterativos utilizando **Nmap**.
 
-### 🛠️ Automatización con Bash Scripting
+### Automatización con Bash Scripting
 El script realiza un descubrimiento veloz de puertos abiertos y, de forma inmediata, ejecuta categorías de scripts de seguridad de Nmap sobre los puertos activos para mapear versiones y configuraciones inseguras de manera precisa.
 
-### 📊 Matriz de Vulnerabilidades Identificadas
+### Matriz de Vulnerabilidades Identificadas
 
 | Puerto / Protocolo | Servicio Detectado | Versión de Software | Nivel de Riesgo | Impacto Potencial / Hallazgo |
 | :--- | :--- | :--- | :--- | :--- |
